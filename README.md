@@ -53,11 +53,13 @@ regra usada para definir o fenômeno.
 ```text
 .
 ├── README.md
+├── TASK.md
 ├── docs/
 │   ├── METODOLOGIA.md
 │   └── ROTEIRO_NOTEBOOK.md
 └── src/
     └── Labs/
+        ├── Atividade_01_CRISP_DM.ipynb
         ├── data/
         │   ├── credit_data.csv
         │   └── enso/
@@ -67,11 +69,13 @@ regra usada para definir o fenômeno.
         └── Lab02/
 ```
 
-Os notebooks existentes em `Lab01` e `Lab02` são materiais de aula e serão
-usados como referência. O notebook do projeto ENSO ainda será criado.
+Os notebooks existentes em `Lab01` e `Lab02` são materiais de aula e foram
+usados como referência. O notebook da fase inicial do projeto está disponível em
+`src/Labs/Atividade_01_CRISP_DM.ipynb`.
 
 ## Documentação
 
+- [Requisitos da Atividade 1](TASK.md): diretrizes das fases iniciais do CRISP-DM.
 - [Metodologia](docs/METODOLOGIA.md): desenho experimental, preparação,
   treinamento e avaliação.
 - [Roteiro do notebook](docs/ROTEIRO_NOTEBOOK.md): estrutura narrativa da
@@ -85,11 +89,11 @@ usados como referência. O notebook do projeto ENSO ainda será criado.
 - [x] Fontes oficiais pesquisadas.
 - [x] Dados brutos baixados e documentados.
 - [x] Modelos 2 e 3 conceitualmente definidos.
-- [ ] Dados consolidados em uma tabela mensal.
-- [ ] Variável-alvo e horizontes gerados.
-- [ ] Análise exploratória realizada.
-- [ ] Modelos treinados e comparados.
-- [ ] Notebook finalizado.
+- [x] Dados consolidados em uma tabela mensal (tratamento de sentinelas e ordenação).
+- [x] Análise exploratória realizada (estatísticas, ausentes, séries temporais e correlações).
+- [x] Notebook da Fase Inicial (CRISP-DM 1 e 2) estruturado e documentado.
+- [ ] Variável-alvo e horizontes gerados (Fase 3 – Preparação dos Dados).
+- [ ] Modelos treinados e comparados (Fase 4 e 5 – Modelagem e Avaliação).
 
 ## Fontes principais
 
